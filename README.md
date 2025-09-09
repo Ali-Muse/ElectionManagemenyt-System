@@ -1,7 +1,9 @@
-Election Management System (EMS2)
-Overview
+**Election Management System (EMS2)**
+
+**Overview**
 The Election Management System (EMS2) is a web-based platform that streamlines the entire election process. It centralizes candidate management, voter registration, voting, and results visualization into a secure and responsive application. By providing role-based portals for Admins, Voters, and Candidates, EMS2 improves transparency, efficiency, and trust in digital elections.
-Solution
+
+**Solution**
 EMS2 addresses these challenges by offering a unified and digital approach:
 •	Centralized Management – Admins handle elections, voters, and candidates from one portal.
 •	Role-Based Access – Separate dashboards for Admins, Voters, and Candidates.
@@ -9,7 +11,8 @@ EMS2 addresses these challenges by offering a unified and digital approach:
 •	Results Visualization – Real-time charts and tables (via Chart.js) make results easy to understand.
 •	Image Handling – Candidate photos stored securely with fallback support.
 •	Responsive Design – Tailwind CSS ensures the platform works on both desktop and mobile.
-Features
+
+**Features**
 •	Authentication & Roles – Secure login for Admins, Voters, and Candidates.
 •	Election Management – Create, edit, and manage elections (active, upcoming, ended).
 •	Candidate Management – Add/update candidates with profiles and images.
@@ -21,7 +24,7 @@ o	Candidate: Election ranking and personal vote share.
 •	Public Landing Page – Displays live statistics (candidates, voters, elections, votes) and featured candidates.
 •	Image Storage – Candidate images stored in uploads/ with .htaccess protection.
 •	Modern UI – Clean design powered by Tailwind CSS and Font Awesome.
-Technology Stack
+**Technology Stack**
 Backend
 •	PHP 7.x / 8.x
 •	MySQL 
@@ -30,7 +33,7 @@ Frontend
 •	Tailwind CSS 
 •	Font Awesome (icons)
 •	javascript
-Project Structure
+**Project Structure**
 EMS2/
 ├── admin/             # Admin portal
 │   ├── dashboard.php
@@ -65,7 +68,7 @@ EMS2/
 │   └── .htaccess
 └── assets/            # Static files (SVG, icons)
 
-Usage
+**Usage**
 Public Users
 •	Access the landing page: /EMS2/public/index.php.
 •	View live stats and featured candidates.
